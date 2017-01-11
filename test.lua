@@ -16,12 +16,12 @@ addCommandHandler("testnotify",
 		Notify(
 			{
 				text = texts[math.random(1, #texts)],
-				font = "arial",
+				font = fonts[math.random(1, #fonts)],
 				fontColor = tocolor(255, 255, 255, 255),
 				fontSize = 1.3,
-				height = 30,
+				height = math.random(25, 60),
 				color = tocolor(math.random(0, 255), math.random(0, 255), math.random(0, 255), math.random(150, 255)),
-				radius = 5
+				radius = math.random(0, 50)
 			}
 		)
 	end
