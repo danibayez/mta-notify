@@ -4,7 +4,7 @@ Basic and personalizable notifications for MTA:SA
 # HOW TO USE
 exports.notify:Notify(
 			{
-				text = texts[math.random(1, #texts)],
+				text = "Example notification.",
 				font = "arial",
 				fontColor = tocolor(255, 255, 255, 255),
 				fontSize = 1.5,
