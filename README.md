@@ -1,5 +1,5 @@
 # mta-notify
-Basic and personalizable notifications for MTA:SA
+Basic & Personalizable notifications for MTA:SA
 
 # HOW TO USE
 exports.notify:Notify(
