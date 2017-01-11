@@ -1,0 +1,6 @@
+﻿<meta>
+	<script src="c_util.lua" type="client"/>
+	<script src="c_notify.lua" type="client"/>
+	<exports function="Notify" type="client"/>
+	<script src="test.lua" type="client"/>
+</meta>
