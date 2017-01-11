@@ -1,10 +1,7 @@
 # mta-notify
 Basic and personalizable notifications for MTA:SA
 
-# HOW TO USE ON EXTERNAL RESOURCES
-exports.notify:Notify()
-
-# EXAMPLE
+# HOW TO USE
 exports.notify:Notify(
 			{
 				text = texts[math.random(1, #texts)],
@@ -13,7 +10,7 @@ exports.notify:Notify(
 				fontSize = 1.5,
 				height = 45,
 				color = tocolor(255, 0, 80),
-				radius = 5,
+				radius = 5
 			}
 		)
 
