@@ -1,7 +1,8 @@
 # mta-notify
 Basic & Personalizable notifications for MTA:SA
 
-# HOW TO USE
+# How to use
+
 exports.notify:Notify(
 			{
 				text = "Example notification.",
